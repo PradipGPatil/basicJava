@@ -39,6 +39,7 @@ public class Main {
 		int[] newArrays2=new int[5];
 		
 		// now we will print value by using enhance for loop
+		// THIS ARRAY usefull when we want to travel throw the element
 		
 		for(int element:newArrays2) {
 			System.out.print(element+" ");
