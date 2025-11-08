@@ -3,7 +3,9 @@ package inhertance02;
 public class Animal {
 
 	private String size;
-	private String type;
+	
+	// any class which is subclass can access this field
+	protected String type;
 	private double weight;
 	
 	public Animal() {
