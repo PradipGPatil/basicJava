@@ -1,22 +1,22 @@
 package main01;
 
-public class ConstructorChallange {
+public class ConstructorChallange83 {
 	private String name;
 	private String creditName;
 	private String emailAddress;
 
-	public ConstructorChallange(String name, String creditName, String emailAddress) {
+	public ConstructorChallange83(String name, String creditName, String emailAddress) {
 		this.name = name;
 		this.creditName = creditName;
 		this.emailAddress = emailAddress;
 
 	}
 
-	public ConstructorChallange() {
+	public ConstructorChallange83() {
 		this("default name","111","defaul email");
 	}
 
-	public ConstructorChallange(String name, String emailaddress) {
+	public ConstructorChallange83(String name, String emailaddress) {
 		this(name, "123", emailaddress);
 	}
 

@@ -1,6 +1,6 @@
 package main01;
 
-public class BankTest {
+public class BankTest80 {
 
 	public static void main(String[] args) {
 		
@@ -9,7 +9,7 @@ public class BankTest {
 		
 //	Bank bank=new Bank();
 //		Bank bank=new Bank("12345", 100, "test1@gmail.com", "pradip", "12324");
-		Bank bank=new Bank("threeName", "threeEmail", "333");
+		Bank80 bank=new Bank80("threeName", "threeEmail", "333");
 		System.out.println("name "+ bank.getName()+ " email "+bank.getEmail()+" number "+bank.getAccountNumber());
 	
 		bank.setAccountNumber("12345");

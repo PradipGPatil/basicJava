@@ -1,11 +1,12 @@
 package main01;
 
-public class Main {
+public class Main77 {
 
 	public static void main(String[] args) {
-		Car car = new Car();
+		Car77 car = new Car77();
 		
 		// adventage of setmake is we can add validation in setmake as well before setting variable
+		// also due to setting method we restrict creating invalid object
 		car.setMake("porsche");
 		car.setColor("red");
 		car.setDoor(5);

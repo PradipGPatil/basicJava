@@ -1,9 +1,9 @@
 package main01;
 
-public class TestExcWall {
+public class TestExcWall88 {
 
 	public static void main(String[] args) {
-		ExcWall wall=new ExcWall(5.0,4.0);
+		ExcWall88 wall=new ExcWall88(5.0,4.0);
 		System.out.println("area= "+wall.getArea());
 		
 		wall.setHeight(-1.5);

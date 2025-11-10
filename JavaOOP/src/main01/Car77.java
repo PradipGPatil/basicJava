@@ -1,6 +1,6 @@
 package main01;
 
-public class Car {
+public class Car77 {
 
 	private String make = "Maruti";
 	private String color = "white";

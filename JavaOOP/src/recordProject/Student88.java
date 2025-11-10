@@ -1,13 +1,13 @@
 package recordProject;
 
-public class Student {
+public class Student88 {
 
 	private String id;
 	private String name;
 	private String dateOfBirth;
 	private String classList;
 
-	public Student(String id, String name, String dateOfBirth, String classList) {
+	public Student88(String id, String name, String dateOfBirth, String classList) {
 		super();
 		this.id = id;
 		this.name = name;
