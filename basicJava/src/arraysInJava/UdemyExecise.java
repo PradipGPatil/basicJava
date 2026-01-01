@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
-public class SortedArray {
+public class UdemyExecise {
     // write code here   
     
 

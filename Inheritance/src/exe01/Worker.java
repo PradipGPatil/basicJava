@@ -1,8 +1,5 @@
 package exe01;
 
-import java.time.LocalDate;
-import java.time.Period;
-
 public class Worker {
 
 	private String name;
