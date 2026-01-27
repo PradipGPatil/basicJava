@@ -9,14 +9,23 @@ public class Morelist_134 {
 
 	public static void main(String[] args) {
 		String items[]= {"apples","banana","milk","eggs"};
-		List<String> list=	List.of(items);
-		System.out.println(list);
-//		System.out.println(list.getClass().getName());
 		
+		// called static factor method which return list of string
+		List<String> list=	List.of(items);
+		
+		// it return list of immutable collection if we try to add string it will not
+		System.out.println(list.getClass().getName());
+		// if we try to add it will give error message 
+//		list.add("yoguart");
+		System.out.println(list);
+		
+		// if we pass the immutable list to arraylist but converted into mutable list
 		ArrayList<String> grocessary=new ArrayList<String>(list);
+		// here we can able to add the element
 		grocessary.add("yoguart");
 		System.out.println(grocessary);
 		
+		// another way to pass the list element
 		ArrayList<String> nextList=new ArrayList<String>(List.of("pickles","mustured","cheese"));
 		System.out.println(nextList);
 		
@@ -36,6 +45,7 @@ public class Morelist_134 {
 		
 		// index of method 
 		grocessary.add("yoguart");
+		System.out.println(grocessary);
 		System.out.println("first ="+grocessary.indexOf("yoguart"));
 		System.out.println("last ="+grocessary.lastIndexOf("yoguart"));
 		
@@ -68,5 +78,8 @@ public class Morelist_134 {
 		
 		grocessary.sort(Comparator.reverseOrder());
 		System.out.println(grocessary);
+		
+		// converting  arraylist to regular array. toArray is method used to convert arraylist to regular array
+		var grocessaryArray=grocessary.toArray(new String[grocessary.size()]);
 	}
 }

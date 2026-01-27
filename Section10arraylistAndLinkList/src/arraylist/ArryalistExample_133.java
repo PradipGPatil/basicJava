@@ -6,6 +6,7 @@ import java.util.Arrays;
 record GroceryItem(String name, String type , int count) {
 	
 	public GroceryItem(String name) {
+		// here we calling default constructor provide by record
 		this(name, "Dairy",1);
 	
 	}
@@ -40,6 +41,7 @@ public class ArryalistExample_133 {
 		
 		// to remove the item 
 		grocerryList.remove(1);
+		// notice on arraylist we does not need to string method
 		System.out.println(grocerryList);
 		
 	}
