@@ -31,7 +31,7 @@ public class LinkListTest_143 {
 		list.addFirst("mumbai");
 		list.addLast("pune");
 
-		// quers method
+		// queue method - FIFO
 		list.offer("Melbern");
 		list.offerFirst("brisbane");
 		list.offerLast("Toowomba");
@@ -58,7 +58,7 @@ public class LinkListTest_143 {
 
 		System.out.println("removed last element " + s3);
 
-		// query method
+		// queue method
 
 		String p1 = list.poll();
 		System.out.println(p1 + " removed first element ");

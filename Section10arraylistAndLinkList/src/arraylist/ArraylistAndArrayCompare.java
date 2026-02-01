@@ -18,7 +18,8 @@ public class ArraylistAndArrayCompare {
 		System.out.println("original list=>"+originalList);
 		System.out.println("original array =>"+Arrays.toString(orginalArray));
 		
-		// as the arraylist is backed by array , we will get complie time error
+		// as the arraylist is backed by array , we will get complie time error , same goes for the add
+		// ultimate source is array so array is not resizeable
 		originalList.remove(0);
 	}
 

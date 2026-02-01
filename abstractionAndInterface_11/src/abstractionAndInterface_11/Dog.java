@@ -1,5 +1,7 @@
 package abstractionAndInterface_11;
 
+
+// here dog is concerte class
 public class Dog extends Animal {
 
 	public Dog(String type, String size, double weight) {
@@ -22,7 +24,7 @@ public class Dog extends Animal {
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
-		// type is protected method so subclass can use this filed directly 
+		// type is protected method so subclass can use this field directly 
 		if(getExpciliteName()=="wolf") {
 			System.out.println("Howling");
 		
