@@ -1,5 +1,34 @@
 package interface01;
 
+interface FlightEnabled{
+	
+	 public static double MILES_TO_KM=1.60934;
+		
+		double KM_TO_MILES=0.621371;
+		
+		public abstract void takeoff();
+		
+		// default modifier is public
+		abstract void land();
+		// we do not need to specify abstract 
+		// because abstract is default modifier for the interface
+		void fly();
+		
+	}
+
+interface Trackable{
+		void track();
+		}
+
+// we use extends keyword in order to extendes another interface
+
+interface OrbitEarth extends FlightEnabled{
+	// this method is public on interface 
+	void achieveOrbit();
+}
+	
+	
+// enum only can implement the interface but can not extends the class
 enum FlightStages implements Trackable{
 	GROUNDED, LAUNCH,CRUISE,DATA_COLLECTION;
 
@@ -62,30 +91,7 @@ class Satellite implements OrbitEarth{
 	}
 }
 
-interface OrbitEarth extends FlightEnabled{
-	// this method is public on interface 
-	void achieveOrbit();
-}
 
-interface FlightEnabled{
-	
- public static double MILES_TO_KM=1.60934;
-	
-	double KM_TO_MILES=0.621371;
-	
-	public abstract void takeoff();
-	
-	// default modifier is public
-	abstract void land();
-	// we do not need to specifiy abstract 
-	// because abstract is default modifier for the interface
-	void fly();
-	
-}
-
-interface Trackable{
-	void track();
-	}
 
 public abstract class Animal {
 

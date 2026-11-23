@@ -11,7 +11,6 @@ public class Products {
 	public Products() {}
 
 	public Products(String model, String manufacturer) {
-		super();
 		this.model = model;
 		this.manufacturer = manufacturer;
 	}

@@ -2,6 +2,13 @@ package constructorAndClass;
 
 public class Constructor_83 {
 	
+	private String accountNumber;
+	// instead of int here better to use double because balance should be real number
+	private int accountBalance;
+	private String customerName;
+	private String email;
+	private String phoneNumber;
+	
 	// we can overload the constructore like we overload the method
 	public Constructor_83() {
 		System.out.println("default constructore is being called !!");
@@ -18,12 +25,7 @@ public class Constructor_83 {
 	}
 	
 	
-	private String accountNumber;
-	// instead of int here better to use double because balance should be real number
-	private int accountBalance;
-	private String customerName;
-	private String email;
-	private String phoneNumber;
+
 	
 	public String getAccountNumber() {
 		return accountNumber;

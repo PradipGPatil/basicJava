@@ -7,12 +7,18 @@ public class Test {
 	public static void main(String[] args) {
 		Movies movie=new Movies(" star war ");
 		movie.watchMovies();
+		System.out.println("---".repeat(20));
 		
 		Movies movie1=new Adventure(" star war ");
 		movie1.watchMovies();
+		System.out.println("---".repeat(20));
+		
 		// calling code does need to know diff kind of instance
-		Movies theMovie=Movies.getMovies("Science", "Star war");
+		Movies theMovie=Movies.getMovies("Science", "Science fiction movies");
 		theMovie.watchMovies();
+		System.out.println("---".repeat(20));
+		
+		
 		Scanner scan=new Scanner(System.in);
 		while(true) {
 		System.out.println(" Enter type (A for adventure), c for comedy, S for science fiction or Q to quite");	

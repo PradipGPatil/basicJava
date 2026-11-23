@@ -7,8 +7,12 @@ public class Car_79 {
 	// so we can say class is another powerful datatype mainly we can say user defined datatype
 	
 	
-	// if we donot specify the access modifier , the java give default modified or package modified 
+	// if we don ot specify the access modifier , the java give default modified or package modified 
 	// which allow the access to member within the package only 
+	
+	// if does not assing value to the class, then java provide default value null from string , 0 for primitive , 0.0 for float 
+	// falst for boolean
+	
 	private String make = "Maruti";
 	private String color = "white";
 	private String model = "800";

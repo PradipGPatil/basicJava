@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance91;
 
 public class Fish extends Animal{
 

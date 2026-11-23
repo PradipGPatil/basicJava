@@ -6,6 +6,7 @@ public class Test extends Object {
 	public static void main(String[] args) {
 		Student max=new Student("max",29);
 		System.out.println(max.toString()); // Student@24d46ca6 where student is class name and after @ is haxcode
+		
 		// java call implecitly to string method
 		System.out.println(max);
 		

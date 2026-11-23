@@ -5,7 +5,7 @@ public class Bank_82 {
 	private String accountNumber;
 	
 	// instead of int here better to use double because balance should be real number
-	private int accountBalance;
+	private double accountBalance;
 	private String customerName;
 	private String email;
 	private String phoneNumber;
@@ -14,11 +14,11 @@ public class Bank_82 {
 		return accountNumber;
 	}
 	
-	public int getAccountBalance() {
+	public double getAccountBalance() {
 		return accountBalance;
 	}
 	
-	public String customerName() {
+	public String getCustomerName() {
 		return customerName;
 	}
 	
@@ -35,7 +35,7 @@ public class Bank_82 {
 		this.accountNumber=accountNumber;
 	}
 	
-	public void setAccountBalance(int accountBalance) {
+	public void setAccountBalance(double accountBalance) {
 		this.accountBalance=accountBalance;
 	}
 	
@@ -51,19 +51,19 @@ public class Bank_82 {
 		this.phoneNumber=phoneNumber;
 	}
 	
-	public void depositFund(int depositAmount) {
+	public void depositFund(double depositAmount) {
 		if(depositAmount <0) return;
 		accountBalance+=depositAmount;
 		System.out.println(" Total balance is =>" +accountBalance);
 	}
 	
-	public void withDrawFund(int withDrawAmount) {
+	public void withDrawFund(double withDrawAmount) {
 		if(accountBalance-withDrawAmount <0) {
-			System.out.println("Your account balance is low");
+			System.out.println("your withdraw amount is $" + withDrawAmount + " but you balance is $"+accountBalance);
 		}
 		else {
 			accountBalance-=withDrawAmount;
-			System.out.println("Your remaing balance is "+ accountBalance);
+			System.out.println("Amount withdrew  "+withDrawAmount+" successfully Your remaing balance is "+ accountBalance);
 		}
 	}
 }

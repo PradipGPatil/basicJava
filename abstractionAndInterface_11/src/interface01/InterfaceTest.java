@@ -43,6 +43,7 @@ public class InterfaceTest {
 	ArrayList<FlightEnabled> fliers=new ArrayList<FlightEnabled>();
 		// if we change to linklist it will give error 
 	// because method reqire arraylist as parameter 
+	// it always better to use List interface
 //		LinkedList<FlightEnabled> fliers=new LinkedList<FlightEnabled>();
 		fliers.add(bird);
 		List<FlightEnabled> betterFliers=new ArrayList<FlightEnabled>();

@@ -8,6 +8,7 @@ public class ArraylistAndArrayCompare {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] orginalArray=new String[]{"First","Second","Third"};
+		// it act bridge between arrays and list interface. which is backed by Arrays
 		var originalList=Arrays.asList(orginalArray);
 		originalList.set(0, "one");
 		System.out.println("arraylist =>"+originalList);
@@ -20,7 +21,7 @@ public class ArraylistAndArrayCompare {
 		
 		// as the arraylist is backed by array , we will get complie time error , same goes for the add
 		// ultimate source is array so array is not resizeable
-		originalList.remove(0);
+//		originalList.remove(0);
 	}
 
 }

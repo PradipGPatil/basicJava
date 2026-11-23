@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance91;
 
 public class Test {
 
@@ -27,7 +27,7 @@ public class Test {
 		animal.makeNoise();
 		animal.move(speed);
 		
-		System.out.println(animal);
+		System.out.println( );
 		System.out.println("---");
 	}
 }

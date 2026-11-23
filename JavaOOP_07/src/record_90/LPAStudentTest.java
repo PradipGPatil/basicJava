@@ -39,7 +39,7 @@ public class LPAStudentTest {
 		
 		
 		// getting the data from the class
-		System.out.println(pojoStudent.getName() + " is taking "+pojoStudent.getClassList());
+		System.out.println(pojoStudent.getName() + " is taking "+ pojoStudent.getClassList());
 		
 		System.out.println(recordStudent.name() + " is taking "+recordStudent.classList());
 	}

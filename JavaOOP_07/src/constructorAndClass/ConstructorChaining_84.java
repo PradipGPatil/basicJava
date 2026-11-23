@@ -4,6 +4,8 @@ public class ConstructorChaining_84 {
 	
 	// we can overload the constructore like we overload the method
 	public ConstructorChaining_84() {
+		// this should be first statement in constructor
+		
 		this("111",5000,"default name","defaultEmail","defaultPhoneNumber");
 		System.out.println("default constructore is being called !!");
 	}
@@ -14,7 +16,7 @@ public class ConstructorChaining_84 {
 		
 		//setAccountNumber(accountNumber);
 		// it generally good practice to set value directly in construnctor instead of calling setter method
-		// their migh changes that set method might not set the value 
+		// their might be  changes that set method might not set the value 
 		this.accountNumber=accountNumber;
 		this.accountBalance=accountBalance;
 		this.customerName=customerName;

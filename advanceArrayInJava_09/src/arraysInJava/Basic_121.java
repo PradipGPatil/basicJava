@@ -20,9 +20,9 @@ public class Basic_121 {
 		int[] myFiveNumber=new int[] {1,5,6,8,10};
 		
 		// we can create anonumous array as well
-		int[] myFineNumberAnonumous= {1,2,3,4,9};
-		int arrayLenth=myFineNumberAnonumous.length;
-		System.out.println("length of the array : "+myFineNumberAnonumous[arrayLenth-1]);
+		int[] myFiveNumberAnonumous= {1,2,3,4,9};
+		int arrayLenth=myFiveNumberAnonumous.length;
+		System.out.println("length of the array : "+myFiveNumberAnonumous[arrayLenth-1]);
 		
 		// printing all element from the array
 		
@@ -62,6 +62,7 @@ public class Basic_121 {
 		// if we want to see only the element in the array 
 		// array.tostring is static method on helper class Arrays
 		System.out.print(Arrays.toString(newArrays2));
+		System.out.println();
 		
 		// assign the variable to objectVariable variable
 		
